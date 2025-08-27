@@ -1,3 +1,5 @@
+//testar no repositorio local antes de ir para a segunda parte do codigo
+
 function Cliente (nome, celular, endereco, email) {
     this.nome = nome;
     this.endereco = endereco;
@@ -55,3 +57,4 @@ var email1 = new Email("heloisacardillo@gmail.com");
 var cli1 = new Cliente("Heloisa", cel1, end1, email1);
 
 console.log(cli1.getDados());
+
